@@ -32,7 +32,7 @@ for i in range(1, 65535):
 # Check what time the scan started
 t1 = datetime.now()
 
-pool = ThreadPool(processes=8)
+pool = ThreadPool(processes=16)
 results = pool.map(scan_port, ports)
 pool.close()
 pool.join()
