@@ -7,6 +7,7 @@ import socket
 
 # 测试git
 
+
 NORMAL = 0
 ERROR = 1
 TIMEOUT = 5
