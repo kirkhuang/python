@@ -2,12 +2,11 @@
 # coding:utf-8
 
 import socket
-<<<<<<< HEAD
-import sys
 
-=======
+
+
 # 测试git
->>>>>>> 20191101
+
 NORMAL = 0
 ERROR = 1
 TIMEOUT = 5
@@ -45,8 +44,3 @@ def ping(ip, port, timeout=TIMEOUT):
 
 for i in range(64438):
     ping('192.168.31.54', i, 5)
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 20191101
