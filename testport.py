@@ -42,5 +42,6 @@ def ping(ip, port, timeout=TIMEOUT):
 #         timeout = TIMEOUT
 #     ping(ip, port, timeout)
 
-for i in range(64438):
-    ping('192.168.31.54', i, 5)
+
+if ping('192.168.31.54', 445, 5):
+    print("1111")
