@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 driver = webdriver.Chrome()
-url = 'http://32.9.106.12'
+url = 'http://32.9.106.12 '
 driver.get(url)
 print(driver.title)
 # driver.quit()
