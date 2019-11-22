@@ -16,7 +16,6 @@ def checkIP(ip):
         return False
 
 
-
 def telnet(ip, port, timeout=1):
     cs = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     address = (str(ip), int(port))
@@ -28,13 +27,11 @@ def telnet(ip, port, timeout=1):
         return True
 
 
-
 # 打开本目录下的excel文件
 # wb = openpyxl.load_workbook("D:\\repo\\python\\test.xlsx")
 wb = openpyxl.load_workbook("./test.xlsx")
 
 sheets = wb.sheetnames
-
 
 for sheet in sheets:
     # print(sheet)
@@ -53,6 +50,6 @@ for sheet in sheets:
                 continue
         else:
             continue
-    
+
 wb.save("test.xlsx")
 print("检测结束")
