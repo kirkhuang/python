@@ -2,7 +2,7 @@ import os
 from PIL import Image
 import collections
 
-path = "D:\\GisMap\\_alllayers\\L12\\"
+path = "D:\\GisMap\\_alllayers_baidu_sz\\L12\\"
 queue = []
 # queue.append(path)
 list = []
