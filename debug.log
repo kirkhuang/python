@@ -1,2 +1,4 @@
 [1122/202139.476:ERROR:process_reader_win.cc(123)] NtOpenThread: {无法访问} 过程已请求访问一对象，但未给访问权限。 (0xc0000022)
 [1122/202139.476:ERROR:exception_snapshot_win.cc(98)] thread ID 81592 not found in process
+[1122/202941.144:ERROR:process_reader_win.cc(123)] NtOpenThread: {无法访问} 过程已请求访问一对象，但未给访问权限。 (0xc0000022)
+[1122/202941.145:ERROR:exception_snapshot_win.cc(98)] thread ID 62112 not found in process
